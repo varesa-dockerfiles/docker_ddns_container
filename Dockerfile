@@ -1,7 +1,7 @@
 FROM registry.esav.fi:5000/ruby
 MAINTAINER Esa Varemo <esa@kuivanto.fi>
 
-RUN yum install -y golang
+RUN yum install -y bind-utils golang
 
 RUN curl -sSL https://get.docker.com/ | sh
 
